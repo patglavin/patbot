@@ -10,7 +10,7 @@
 
 module.exports = (robot) ->
 
-   robot.hear /badger/i, (res) ->
+	robot.hear /badger/i, (res) ->
      res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
   
    robot.respond /open the (.*) doors/i, (res) ->
@@ -36,7 +36,24 @@ module.exports = (robot) ->
 
    robot.hear /no step on snek/i, (res) ->
    	res.send "~\nx"
-  #
+  
+   robot.hear /give diretide/i, (res) ->
+   	res.send "༼ つ ◕_◕ ༽つ"
+
+   dog = ['https://i.imgur.com/EZzysFH.jpg', 'https://i.imgur.com/gtWsPu9.jpg', 'https://i.imgur.com/MU2dD8E.jpg', 'https://imgur.com/gallery/qcIry', 'https://imgur.com/gallery/qcIry']
+
+   robot.hear /patbot show dog/i, (res) ->
+   	res.send res.random dog
+
+   robot.hear /patbot regex help/i, (res) ->
+   	res.send "here are some regex resources!\nhttps://regexr.com/3m8em\nhttps://zipcoder.github.io/reveal-slides/Regular-Expressions.html#/\nhttps://regexone.com/\nhttps://regexcrossword.com/"
+
+   robot.hear /patbot slackbot help/, (res) ->
+   	res.send "I am a Hubot in your slack channel! Here's some background information on me\nhttps://github.com/patglavin/patbot\nhttps://hubot.github.com/docs/"
+
+   robot.hear /patbot json help/, (res) ->
+   	res.send "Try these to learn more about JSON!\nhttps://www.ntu.edu.sg/home/ehchua/programming/webprogramming/HTTP_Basics.html\nhttps://developer.nytimes.com\nhttps://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc"
+
   # robot.topic (res) ->
   #   res.send "#{res.message.text}? That's a Paddlin'"
   #
