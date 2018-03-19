@@ -1,1 +1,1 @@
-web: HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN bin/hubot --adapter slack;
+web: node HUBOT_SLACK_TOKEN=$HUBOT_SLACK_TOKEN bin/hubot --adapter slack;
