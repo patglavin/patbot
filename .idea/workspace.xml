@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cd198ba-be30-4fb4-a5f4-64a95b16039c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change beforePath="$PROJECT_DIR$/bin/hubot" afterPath="$PROJECT_DIR$/bin/hubot" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +26,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hubot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/hubot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -46,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/scripts/example.coffee" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/bin/hubot" />
       </list>
     </option>
   </component>
@@ -86,6 +97,11 @@
             <path>
               <item name="my-awesome-hubot" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-awesome-hubot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-awesome-hubot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-awesome-hubot" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-awesome-hubot" type="b2602c69:ProjectViewProjectNode" />
@@ -131,12 +147,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521492796977</updated>
-      <workItem from="1521492798296" duration="572000" />
+      <workItem from="1521492798296" duration="741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="572000" />
+    <option name="totallyTimeSpent" value="741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-266" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -192,6 +208,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/hubot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
